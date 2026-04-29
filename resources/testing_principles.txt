@@ -1,0 +1,23 @@
+The 7 Principles of Software Testing provide a framework for effective testing by stating that testing shows the presence of defects, not their absence; exhaustive testing is impossible due to complexity; early testing saves resources; defects cluster in certain areas; the pesticide paradox suggests tests become less effective over time; testing is context-dependent, varying with the project; and the absence of errors fallacy warns that a bug-free program that doesn't meet user needs is useless.
+Here are the 7 principles:
+Testing shows the presence of defects, not their absence.
+What it means: Testing can reveal the existence of bugs but cannot prove that a system is entirely bug-free.
+In practice: The goal is to reduce the number of defects, not to eliminate them entirely.
+Exhaustive testing is impossible.
+What it means: Testing every single combination of inputs and paths in a complex system is not feasible.
+In practice: Focus on risk-based testing and prioritize tests for the most critical functionalities.
+Early testing.
+What it means: Testing should begin as early as possible in the development lifecycle, from the requirements phase onward.
+In practice: Finding defects early saves time and money compared to finding them later in the project.
+Defect clustering.
+What it means: The Pareto Principle applies to software, where a small number of modules or components tend to contain the majority of defects.
+In practice: Focus your testing efforts on these high-defect areas to maximize efficiency.
+Pesticide paradox.
+What it means: If the same set of test cases is run repeatedly, they will eventually become less effective at finding new defects, much like pests developing immunity to a pesticide.
+In practice: Regularly review and update your test cases, and introduce new testing techniques to maintain effectiveness.
+Testing is context-dependent.
+What it means: The approach to testing varies significantly based on the specific application, its environment, and its purpose.
+In practice: A testing approach for a medical device will differ from that for a mobile game.
+Absence-of-errors fallacy.
+What it means: A software application might be completely free of defects but still be unusable or not meet the users' actual needs and expectations.
+In practice: Ensure that the software being tested is useful and fulfills its intended purpose, not just that it's bug-free.

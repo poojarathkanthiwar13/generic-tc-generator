@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Generated test images
+test_images/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reference material (add your own docs — don't commit proprietary content)
+# Uncomment the lines below if you want to prevent reference docs from being committed:
+# reference_material/product_info/*
+# reference_material/user_guides/*
+# reference_material/requirements/*
+# reference_material/ui_screenshots/*
+# !reference_material/**/.gitkeep
+
+# Generated test cases (optional — commit if you want to track outputs)
+# generated_test_cases/*.csv

@@ -1,0 +1,60 @@
+Test case writing involves various techniques to ensure comprehensive and effective testing. These techniques can be broadly categorized into black-box, white-box, and experience-based approaches.
+
+1. Black-Box Testing Techniques: These focus on the software's functionality without examining its internal structure.
+Equivalence Partitioning (EP): Divides input data into partitions where each class represents a group of inputs expected to produce similar results. Test cases are created for one value from each class (e.g., valid, invalid, and boundary values).
+Boundary Value Analysis (BVA): Focuses on testing the upper and lower limits of input values, as defects often occur at these boundaries (e.g., min-1, min, max, max+1).
+Decision Table Testing: Used for complex logic with multiple conditions and actions, representing combinations of conditions and their corresponding outcomes in a tabular format.
+State Transition Testing: Models the system's behavior as a series of states and transitions between them, ensuring all valid and invalid transitions are tested.
+
+Test case design techniques:
+
+1. Boundary Value Analysis (BVA)
+   - Validate system behavior at the boundary edges (min, max, just inside, just outside).
+   - Example: Input range 1–100 → test 0, 1, 100, 101.
+
+2. Equivalence Partitioning (EP)
+   - Divide input data into valid and invalid partitions.
+   - Pick one value from each partition to minimize test cases.
+
+3. Error Guessing
+   - Leverage tester's experience to predict potential error-prone areas.
+   - Example: Blank inputs, special characters, null values.
+
+4. State Transition Testing
+   - Test system behavior based on valid/invalid state changes.
+   - Example: Login → Logged in → Logout.
+
+5. Decision Table Testing
+   - Identify business rules and conditions in tabular form.
+   - Ensure all condition combinations are covered.
+
+6. Exploratory Testing
+   - Simultaneous test design and execution.
+   - Tester explores the application without predefined test cases.
+
+7. Use Case Testing
+   - Validate scenarios as per user interactions.
+   - Example: User places an order → payment → confirmation.
+
+8. Statement Coverage
+   - Ensure every executable statement in the code is executed at least once.
+
+9. Path Testing
+   - Verify all possible execution paths in the code.
+   - Focus on control flow and branching.
+
+10. Prioritize Tests
+    - Rank test cases by risk, impact, and criticality.
+    - Helps in focusing on most important scenarios first.
+
+11. Pairwise Testing
+    - Test all possible discrete pairs of input parameters.
+    - Reduces test case count while ensuring coverage.
+
+12. Reusable Test Cases
+    - Design modular test cases that can be reused across modules or projects.
+    - Example: Login test reused in multiple flows.
+
+13. Condition Testing
+    - Validate all logical conditions (true/false outcomes).
+    - Example: IF (A && B) → test A=true, A=false, B=true, B=false.
