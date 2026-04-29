@@ -9,7 +9,7 @@ This toolkit uses a two-step workflow:
 1. **Add your reference material** — Drop your product docs, user guides, and requirements into the `reference_material/` folders.
 2. **Run the generation prompt** — Open `prompts/test_case_generator.prompt` in your AI assistant (Claude, ChatGPT, etc.), point it at your reference material, and paste in the requirement you want to test.
 
-The AI reads your reference material first, then generates structured test cases in a TestMo-compatible CSV format.
+The AI reads your reference material first, then generates structured test cases in a CSV format.
 
 ---
 
